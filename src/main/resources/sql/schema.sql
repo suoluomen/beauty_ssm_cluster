@@ -39,7 +39,7 @@ KEY `idx_goods_id`(`goods_id`)
 )ENGINE=INNODB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
---插入初始数据
+-- 插入初始数据
 INSERT INTO 
 	_user(user_name, user_phone, score)
 VALUES

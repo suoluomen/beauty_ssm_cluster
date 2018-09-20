@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.yingjun.ssm.entity.Goods;
 import com.yingjun.ssm.entity.Order;
-
+//spring junit测试，使用2个注解RunWith，ContextConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring/spring-dao.xml")
 public class OrderDaoTest {

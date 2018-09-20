@@ -89,6 +89,7 @@
 	</bean> -->
 
 	<!-- redis单节点数据库连接配置 -->
+	<!--redis配置ip和端口-->
 	<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
 		<property name="hostName" value="${redis.ip}" />
 		<property name="port" value="${redis.port}" />
